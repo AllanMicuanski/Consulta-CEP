@@ -1,0 +1,26 @@
+/* Adicione este estilo ao seu arquivo ListaEndereco.modul.css */
+
+.ordenacao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ordenacao button {
+  background-color: #0c0036;
+  color: #fff;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ordenacao button:last-child {
+  margin-right: 0;
+}
+
+.ordenacao button:hover {
+  background-color: #1a0056;
+}
