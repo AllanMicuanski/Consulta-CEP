@@ -30,7 +30,7 @@ const ListaEnderecos = ({ enderecos }) => {
           Ordenar por Estado
         </button>
       </div>
-      <table>
+      <table className={styles.lista__}>
         <thead>
           <tr>
             <th>CEP</th>

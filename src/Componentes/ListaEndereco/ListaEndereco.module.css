@@ -3,10 +3,10 @@
   align-items: center;
   margin-bottom: 20px;
   margin-top: 10px;
+  
 }
-
 .ordenacao button {
-  background-color: #0c0036;
+  background-color: #004080;
   color: #fff;
   padding: 8px 16px;
   margin-right: 10px;
@@ -16,10 +16,14 @@
   transition: background-color 0.3s ease;
 }
 
+
 .ordenacao button:last-child {
   margin-right: 0;
 }
 
 .ordenacao button:hover {
-  background-color: #1a0056;
+  background-color: #0059b3;
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
